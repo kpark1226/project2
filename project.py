@@ -30,6 +30,20 @@ for i in popdata:
     elif 2020>int(i['date']) >=1990:
         population_late.append(i['value'])
 
+pop_china = open('pop_china.json')
+reader = pop.read()
+popchinajson = json.loads(reader)
+popchinadata = popchinajson[1]
+popchinadata = popchinadata[::-1]
+year = range(30)
+population_early = []
+population_late = []
+for i in popdata:
+    if int(i['date']) <1990:
+        population_early.append(i['value'])
+    elif 2020>int(i['date']) >=1990:
+        population_late.append(i['value'])
+
 plt.title('Population in the United States over 30 years')
 plt.plot(year,population_early, label='Population 1960-1989')
 plt.plot(year,population_late, label='Population 1990-2019')
