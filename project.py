@@ -30,7 +30,7 @@ for i in popdata:
     elif 2021>int(i['date']) >=2000:
         population_late.append(i['value'])
 
-plt.title('Population in the United States over 30 years')
+plt.title('Population in the United States over 20 years')
 plt.plot(year,population_early, label='Population 1960-1980')
 plt.plot(year,population_late, label='Population 2000-2020')
 plt.xlabel('Years since 1960/2000')

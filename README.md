@@ -5,6 +5,6 @@ This is a histogram representing the number of retail food stores and their corr
 
 
 
-## Graph 2: Population in Millions in the United States from 1960-2019
-![Population](population.png)
-This graph shows the population in the United States over 30 years from 1960 to 2019. To prevent a long x-axis, I divided the graph into two different lines – one showing the population from 1960-1989, and one showing the population from 1990-2019. I was able to find this dataset under [github](https://github.com/jdorfman/awesome-json-datasets#population), [this](http://api.worldbank.org/v2/countries/CHN/indicators/SP.POP.TOTL?per_page=5000&format=json) is the link to the dataset.
+## Graph 2: Population in Millions in the United States from 1960-1980 and 2000-2020
+![Population](populationfinal.png)
+This graph compares the population in the United States from 1960-1980 and 2000-2020. The population in the US grew significantly at a somewhat constant rate throughout 1960-1980 and 2000-2020, so the population at 2000 is significantly greater than the population in 1960. I was able to find this dataset under [github](https://github.com/jdorfman/awesome-json-datasets#population), [this](http://api.worldbank.org/v2/countries/CHN/indicators/SP.POP.TOTL?per_page=5000&format=json) is the link to the dataset.
